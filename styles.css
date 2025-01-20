@@ -52,6 +52,13 @@ body {
   animation: rotate 10s linear infinite;
 }
 
+.bg__img--question {
+  width: 50%;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @keyframes slideDown {
   from {
     transform: translateY(-30vh);
